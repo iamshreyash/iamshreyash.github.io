@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreyash | Personal Website</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      line-height: 1.7;
+      color: #24292f;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      margin-top: 45px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .description {
+      color: #555;
+      line-height: 1.8;
+    }
+
+    footer {
+      margin-top: 70px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Shreyash</h1>
+    <p>Welcome to my personal website.</p>
+
+    <div class="links">
+      <a href="https://github.com/iamshreyash"
+         target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/ishreyash"
+         target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+
+      <a href="https://shreyashcyberworld.blogspot.com"
+         target="_blank" rel="noopener noreferrer">
+        Blog
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=JP-IwFgAAAAJ&hl=en"
+         target="_blank" rel="noopener noreferrer">
+        Google Scholar
+      </a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p class="description">
+      [Write your personal description here later.
+      You can include your background, education,
+      research interests, professional experience,
+      and career goals.]
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research & Publications</h2>
+    <p>
+      [Add your research interests and publications here.]
+    </p>
+    <p>
+      <a href="https://scholar.google.com/citations?user=JP-IwFgAAAAJ&hl=en">
+        View my Google Scholar profile →
+      </a>
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      [Add your projects and GitHub repositories here.]
+    </p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>
+      I share my articles and thoughts on my blog.
+    </p>
+    <a href="https://shreyashcyberworld.blogspot.com">
+      Visit Shreyash Cyber World →
+    </a>
+  </section>
+
+  <section id="contact">
+    <h2>Connect With Me</h2>
+    <p>
+      Feel free to connect with me on
+      <a href="https://www.linkedin.com/in/ishreyash">
+        LinkedIn
+      </a>
+      or explore my work on
+      <a href="https://github.com/iamshreyash">
+        GitHub
+      </a>.
+    </p>
+  </section>
+
+  <footer>
+    © Shreyash | Powered by GitHub Pages
+  </footer>
+
+</body>
+</html>
